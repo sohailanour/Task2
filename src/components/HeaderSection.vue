@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid main-bg">
     <div class="row container m-auto">
-      <div class="col-6">
+      <div class="col-md-6">
         <h1>Award winning <br> toys for childern</h1>
         <p>creative,timeless toys for childern of all ages!</p>
         <button type="button" class="btn bg-btn text-white">SHOP NOW</button>

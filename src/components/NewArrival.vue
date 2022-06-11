@@ -3,7 +3,7 @@
     <h2>New Arrival</h2>
 
     <div class="row container p-5">
-      <div class="col-3 position-relative position-relative">
+      <div class="col-lg-3 col-md-6 position-relative">
           <div class="cart-img ">
             <img src="../assets/cart.png" alt="">
           </div>
@@ -15,7 +15,7 @@
             <span>10.99$</span>
           </div>
       </div>
-      <div class="col-3 position-relative">
+      <div class="col-lg-3 col-md-6  position-relative">
       <div class="cart-img ">
           <img src="../assets/cart_check.png" alt="">
         </div>
@@ -27,7 +27,7 @@
             <span>10.99$</span>
           </div>
       </div>
-      <div class="col-3 position-relative">
+      <div class="col-lg-3 col-md-6  position-relative">
         <div class="cart-img ">
           <img src="../assets/cart.png" alt="">
         </div>
@@ -39,7 +39,7 @@
             <span>10.99$</span>
           </div>
       </div>
-      <div class="col-3 position-relative">
+      <div class="col-lg-3 col-md-6 position-relative">
         <div class="cart-img ">
           <img src="../assets/cart.png" alt="">
         </div>
@@ -96,5 +96,10 @@ export default {
 
 .cart-img img{
   width: 100%;
+}
+
+.row div:hover h5{
+  color: #FA724C ;
+  transition: 0.5s;
 }
 </style>
